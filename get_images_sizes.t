@@ -3,7 +3,7 @@
 use Test::More tests => 26;
 use Data::Dumper;
 
-require_ok('get_images_sizes_lib.pl');
+require_ok('get_images_sizes_lib.pm');
 
 my $test1_body = '';
 my $test1;

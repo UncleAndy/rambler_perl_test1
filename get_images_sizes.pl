@@ -7,7 +7,7 @@ use HTML::LinkExtor;
 use HTTP::Request;
 use Image::Magick;
 
-require './get_images_sizes_lib.pl';
+require 'get_images_sizes_lib.pm';
 
 my $body = "";
 while (<STDIN>) {
